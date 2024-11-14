@@ -1,8 +1,15 @@
-# React + Vite
+# React + Vite Boilerplate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This boilerplate lets you make React+Vite app.
 
-Currently, two official plugins are available:
+## Quick Start
+```bash
+git clone https://github.com/pepprbell/react-vite-boilerplate.git
+cd react-vite-boilerplate
+npm install
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Specification
+- CSS styles are normalized with `normalize.css`
+- Basic routing was applied using react-router-dom router.
